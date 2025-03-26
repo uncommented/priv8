@@ -224,3 +224,6 @@ tags
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/vim,macos,linux,goland,go,visualstudiocode
+
+# binary
+bin/priv8*
