@@ -16,7 +16,7 @@ all: $(SOURCE_FILES)
 	  -o bin/priv8-$(OS)-$(ARCH) \
 	  -ldflags "$(LDFLAGS) -X main.Executable=priv8-$(OS)-$(ARCH)" \
 	  $^
-	ln -sf $(CURDIR)/bin/priv8-$(OS)-$(ARCH) bin/priv8
+	@ln -sf $(CURDIR)/bin/priv8-$(OS)-$(ARCH) bin/priv8
 
 clean:
 	rm -rf ./build ./bin
